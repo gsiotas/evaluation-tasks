@@ -1,0 +1,17 @@
+<div class="legend">Source Sentence:</div>
+<h1>{{sentence}}</h1>
+<br />
+<br />
+<div class="header alt1">
+  <div class="legend">Translations</div>
+  <div class="cml_row">Rating
+    <div class="required">(required)</div>
+  </div>
+</div>
+<div id="main_body" class="rating">
+  <cml:ratings label="{{t1_sentence}}" points="3" validates="required" name="rating1" gold="true" from="Best" to="Worst" class="alt1"></cml:ratings>
+  <h1 class="break" style="color:#FFFFFF;">.</h1>
+  <cml:ratings label="{{t2_sentence}}" points="3" validates="required" name="rating2" gold="true" from="Best" to="Worst" class="alt1"></cml:ratings>
+  <h1 class="break" style="color:#FFFFFF;">.</h1>
+  <cml:ratings label="{{t3_sentence}}" points="3" validates="required" name="rating3" gold="true" from="Best" to="Worst" class="alt1"></cml:ratings>
+</div>

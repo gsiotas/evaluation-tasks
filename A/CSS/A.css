@@ -1,0 +1,49 @@
+#main_body {
+  size: 100%;
+}
+.header {
+  font-size: 14pt;
+  color: #737373;
+}
+
+.alt1.header.legend {
+  float: left;
+  position: relative;
+  width: 60%;
+  padding-right: 10px;
+}
+
+.alt1.header.cml_row{
+  float: left;
+  position: relative;
+  width: 20%;
+}
+.alt1 > .legend {
+  float: left;
+  position: relative;
+  width: 60%;
+  padding-right: 10px;
+}
+
+.alt1 .cml_row > table {
+  float: right;
+  position: relative;
+  width: 20%;
+  right: 20%;
+
+}
+.empty {
+  float: left;
+  position: relative;
+  margin-top:20px;
+}
+
+.break {
+  margin-top:20px;
+  clear: both;
+}
+
+.required {
+  font-size: 70%;
+  color: red;
+}
