@@ -1,0 +1,17 @@
+<div class="legend">Source Sentence:</div>
+<h1>{{sentence}}</h1>
+<br />
+<br />
+<div>
+  <div class="legend">Translations</div>
+  <div class="second_column">Rating
+    <div class="required">(required) Please type in a value from one to three</div>
+  </div>
+</div>
+<div class="break"></div>
+<div id="main_body" class="rating">
+  <cml:text label="{{t1_sentence}}" name="rating1" validates="required integerRange:{min:1,max:3}" gold="true"/>
+  <cml:text label="{{t2_sentence}}" name="rating2" validates="required integerRange:{min:1,max:3}" gold="true"/>
+  <cml:text label="{{t3_sentence}}" name="rating3" validates="required integerRange:{min:1,max:3}" gold="true"/>
+</div>
+
