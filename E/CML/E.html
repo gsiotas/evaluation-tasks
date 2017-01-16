@@ -1,0 +1,66 @@
+<div class="alt6">
+  <div class="table-title">
+Source Sentence: 
+    <div class="title">{{sentence}}</div>
+  </div>
+  <table class="table-fill">
+    <thead>
+
+      <tr>
+        <th class="text-left">Alternative translations</th>
+        <!-- Best radio value 1
+        Neutral radio value 2 
+        Worst radio value 3 -->
+        <th>Best</th>
+        <th>Neutral</th>
+        <th>Worst</th>
+      </tr>
+    </thead>
+    <tbody class="table-hover">
+      <tr>
+        <td class="text-left">{{t1_sentence}}</td>
+        <cml:radios name="rating1">
+          <td>
+            <cml:radio class="rating1" value="1"/>
+          </td>
+          <td>
+            <cml:radio class="rating1" value="2"/>
+          </td>
+          <td>
+            <cml:radio class="rating1" value="3"/>
+          </td>
+        </cml:radios>
+      </tr>
+      <tr>
+        <td class="text-left">{{t2_sentence}}</td>
+        <cml:radios name="rating2">
+          <td>
+            <cml:radio class="rating2" value="1"/>
+          </td>
+          <td>
+            <cml:radio class="rating2" value="2"/>
+          </td>
+          <td>
+            <cml:radio class="rating2" value="3"/>
+          </td>
+        </cml:radios>
+      </tr>
+      <tr>
+        <td class="text-left">{{t3_sentence}}</td>
+        <cml:radios name="rating3">
+          <td>
+            <cml:radio class="rating3" value="1"/>
+          </td>
+          <td>
+            <cml:radio class="rating3" value="2"/>
+          </td>
+          <td>
+            <cml:radio class="rating3" value="3"/>
+          </td>
+        </cml:radios>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<cml:hidden label="test" value="true" validates="required" />
+

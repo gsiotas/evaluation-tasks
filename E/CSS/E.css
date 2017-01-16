@@ -1,0 +1,154 @@
+.empty {
+  float: left;
+  position: relative;
+  width: 20%;
+  margin-top:10px;
+}
+
+.break {
+  clear: both;
+}
+
+.required {
+  color: red;
+}
+
+.alt6 div.table-title {
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.alt6 .table-title .title {
+   line-height: 35px;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   
+}
+
+
+/*** Table Styles **/
+
+.alt6 .table-fill {
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+}
+ 
+.alt6 th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+.alt6 th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+.alt6 th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+.alt6 tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+.alt6 tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+  border-bottom: 1px solid #22262e;
+}
+ 
+.alt6 tr:first-child {
+  border-top:none;
+}
+
+.alt6 tr:last-child {
+  border-bottom:none;
+}
+ 
+.alt6 tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+.alt6 tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+.alt6 tr:last-child td:first-child {
+  border-bottom-left-radius:3px;
+}
+ 
+.alt6 tr:last-child td:last-child {
+  border-bottom-right-radius:3px;
+}
+ 
+.alt6 td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+.alt6 td:last-child {
+  border-right: 0px;
+}
+
+.alt6 th.text-left {
+  text-align: left;
+}
+
+.alt6 th.text-center {
+  text-align: center;
+}
+
+.alt6 th.text-right {
+  text-align: right;
+}
+
+.alt6 td.text-left {
+  text-align: left;
+}
+
+.alt6 td.text-center {
+  text-align: center;
+}
+
+.alt6 td.text-right {
+  text-align: right;
+}
+
+.radios > .legend {
+  display: none;
+}
+
