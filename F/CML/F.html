@@ -1,0 +1,110 @@
+<div class="card row-{{id}}">
+  <div class="card-body">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>
+            <strong>Sentence</strong>
+            <cml:instructions>Check one of these.</cml:instructions> 
+          </th>
+          <th>
+            <strong>Translated Sentence</strong>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="background-color: rgb(249, 140, 89); width:50%;" class="select left-sentence row-{{id}}">
+            <strong id="st">{{sentence}}</strong>
+          </td>
+          <td style="width:50%;" class="select right-sentence row-{{id}}">
+            <strong id="ts">{{t_sentence}}</strong>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <div class="tags">
+      <ul class="left-tags row-{{id}}">
+        <span style="color:#fff">.</span>    
+      </ul>
+      <ul class="right-tags row-{{id}}"></ul>
+    </div>
+    <div class="evaluation">
+      <div class="card-comments" style="padding:20px;">
+        <div id="c1-comments" class="dropdown">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h2>Question 1</h2>
+                </th>
+                <th>
+                  <h2>Question 2</h2>
+                </th>
+                <th>
+                  <h2>Question 3</h2>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td valign="top" style="width:30%;">
+                  <h4 style="margin-top:15px; line-height:15pt;">Please mark up a word or a sequence of words, from the above sentences, in order to enable the popup menu, where you can provide a particular error type.</h4>
+                  <h4 style="line-height:15pt;">Upon creating an error tag, you can delete it, by clicking on it.</h4>
+                </td>
+                <td class="left-form" style="width:30%;">
+                  <cml:radios validates="required" name="meaning" label="The translated sentence convey the meaning of the original sentence" gold="true">
+                    <cml:radio value="very_well" label="Very well"></cml:radio>
+                    <cml:radio value="well" label="Well"></cml:radio>
+                    <cml:radio value="adequately" label="Adequately"></cml:radio>
+                    <cml:radio value="poorly" label="Poorly"></cml:radio>
+                    <cml:radio value="very_poorly" label="Very poorly"></cml:radio>
+                    <cml:radio value="idk" label="I don't know"></cml:radio>
+                  </cml:radios>
+                </td>
+                <td class="right-form" style="width:30%;">
+                  <cml:radios validates="required" name="grammar" label="The translated sentence is grammatically " gold="true">
+                    <cml:radio value="flawless" label="Flawless"></cml:radio>
+                    <cml:radio value="good" label="Good"></cml:radio>
+                    <cml:radio value="adequate" label="Adequate"></cml:radio>
+                    <cml:radio value="poor" label="Poor"></cml:radio>
+                    <cml:radio value="incomprehesible" label="Incomprehesible"></cml:radio>
+                    <cml:radio value="idk" label="I don't know"></cml:radio>
+                  </cml:radios>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2></h2>
+        <h2></h2>
+        <h2>Question 4</h2>
+        <cml:textarea id="pubt" name="better-translation" label="Please correct words or phrases that are unintelligible, wrong, or ambiguous."></cml:textarea>
+
+      </div>
+      
+      <cml:hidden readonly="readonly" class="viewabledata row-{{id}}" name="viewabledata"></cml:hidden>
+      <cml:hidden readonly="readonly" class="viewabledata_t row-{{id}}" name="viewabledata_t"></cml:hidden>
+      
+    </div>
+    
+  </div>
+  <!-- The pop up-->
+  <div id="infoDiv" class="card-comments">
+    <div id="c1-comments" style="padding:20px;">
+      <cml:text readonly="readonly" class="dt" name="mark-up-selection"></cml:text>
+      <cml:radios validates="required" class="error_type" name="radio_temp" label="Choose the error type:">
+        <cml:radio value="ADD" label="Addition (ADD)"></cml:radio>
+        <cml:radio value="MIST" label="Mistranslation (MIST)"></cml:radio>
+        <cml:radio value="OM" label="Omission (OM)"></cml:radio>
+        <cml:radio value="UN" label="Untranslated (UN)"></cml:radio>
+        <cml:radio value="FW" label="Function Words (FW)"></cml:radio>
+        <cml:radio value="WF" label="Word Form (WF)"></cml:radio>
+        <cml:radio value="WO" label="Word Order (WO)"></cml:radio>
+      </cml:radios>
+      <button type="button" id="button" class="btn">Add</button>
+    </div>
+  </div>
+</div>
+

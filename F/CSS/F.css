@@ -1,0 +1,342 @@
+h1.job-title {
+    font-size: 24pt;
+    line-height: 24pt;
+    color: #444;
+}
+
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+}
+
+.card .card-heading {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.card .card-heading.simple {
+  font-size: 20px;
+  font-weight: 300;
+  color: #777;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.card .card-heading.image img {
+  display: inline-block;
+  width: 46px;
+  height: 46px;
+  margin-right: 15px;
+  vertical-align: top;
+  border: 0;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.card .card-heading.image .card-heading-header {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.card .card-heading.image .card-heading-header h3 {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  color: #262626;
+}
+
+.card .card-heading.image .card-heading-header span {
+  font-size: 12px;
+  color: #999999;
+}
+
+.card .card-body {
+  padding: 0 20px;
+}
+
+.card .card-media {
+  padding: 0 20px;
+  margin: 0 -14px;
+}
+
+.card .card-media img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card .card-actions {
+  min-height: 30px;
+  padding: 0 20px 20px 20px;
+  margin: 20px 0 0 0;
+}
+
+.card .card-comments {
+  padding: 20px;
+  margin: 0;
+}
+
+.card .card-comments .comments-collapse-toggle {
+  padding: 0;
+  margin: 0 20px 12px 20px;
+}
+
+.card .card-comments .comments-collapse-toggle a,
+.card .card-comments .comments-collapse-toggle span {
+  padding-right: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  color: #999;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card-comments .media-heading {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card-comments > div > .cml_field > .legend {
+  color: #ccc;
+}
+
+.table {
+    border-color: transparent;
+}
+
+.table td {
+    padding: 9px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: top;
+  	color: #FFF;
+    background-color: rgb(39, 186, 239);
+    border: 5px;
+      border-style: solid;
+    /* border: 5px; */
+    border-radius: 5px;
+    border-color: #FFF;
+}
+
+.cml {
+    background: rgba(229, 229, 229, 0);
+    clear: both;
+    overflow: auto;
+    color: #414c55;
+    border: 1px rgba(255, 255, 255, 0) solid;
+    padding: 19px;
+    margin: -21px;
+}
+
+.cml h3 {
+    font-size: 12pt;
+    line-height: 12pt;
+    letter-spacing: 0;
+    margin-left: 10px;
+}
+
+
+td {
+  border-style: solid;
+  border-color: rgba(255, 255, 255, 0);
+  border-radius: 3px;
+}
+
+#infoDiv input[type="radio"]{ 
+  font-weight: bold; 
+  color: rgb(241, 93, 49);
+} 
+
+#infoDiv .cml .cml_field {
+    position: relative;
+    color: #414c55;
+    margin: 0 0 22px;
+}
+
+.tags-div {
+  width: auto;
+ 	float: left; 
+  padding: 0px 23px;
+}
+
+ol, ul {
+    list-style: outside none none;
+}
+
+.tags {
+    border-radius: 5px;
+    display: table;
+    padding: 0.5em;
+    width: 100%;
+    height: auto;
+}
+.tags li.tagAdd, .tags li.addedTag {
+    float: left;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
+.tags li.addedTag {
+    border-radius: 2px;
+    color: #fff;
+    padding: 0.25em;
+    margin-top: 2px;
+    cursor: pointer;
+    cursor: hand;
+}
+
+.tags ul {
+  margin: 0px;
+}
+
+h1.job-title {
+    font-size: 24pt;
+    line-height: 24pt;
+    color: #608392;
+}
+
+.tagRemove {
+ 	margin: 5px;
+  padding: 4px;
+  background-color: #8E452F;
+}
+
+.tagRemove:hover {
+ 	cursor: pointer;
+  margin: 5px;
+  padding: 4px;
+  background-color: #868686;
+}
+
+#s_header {
+  text-align: center;
+  color: #FF3300;
+}
+
+#t_header {
+  text-align: center;
+  color : #33CCCC;
+}
+
+div.sentence {
+  width : 35%;
+  float : left;
+}
+
+div.sentence p {
+  text-align : center;
+  height : auto;
+  margin-top : 20px;
+  margin-right : 15px;
+  word-wrap: break-word;
+  border-style : solid;
+  border-width : 1.5px;
+  border-radius: 5px;
+  border-color: #FF3300;
+}
+
+div.trans_sentence {
+  width : 35%;
+  float : right;
+}
+
+div.trans_sentence p {
+  text-align : center;
+  height : auto;
+  margin-top : 20px;
+  margin-left : 15px;
+  border-style : solid;
+  word-wrap: break-word;
+  border-width : 1.5px;
+  border-color: #33CCCC;
+  border-radius: 5px;
+  
+}
+
+#infoDiv {
+    display: none;
+    width: 250px;
+    z-index: 101;
+    background-color: #313d3e;
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.3) 5px 5px 2px;
+    color: #FFF;
+}
+
+#infoDiv::before {
+  content: "";
+  position: absolute;
+  -moz-transform: rotate(225deg);
+  -webkit-transform: rotate(225deg);
+  top: -8px;
+  left: 30px;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: transparent #313d3e #313d3e transparent ;
+}
+
+label, .cml_field.radios label {
+    display: block;
+    color: #FFF;
+}
+
+#infodiv .cml  .legend {
+	color: #597E8E;
+}
+
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+.left-form label, .left-form .cml_field.radios label {
+    display: block;
+    color: #868686;
+}
+
+.right-form label, .right-form .cml_field.radios label {
+    display: block;
+    color: #868686;
+}
+
+.cml .legend {
+    display: block;
+    font-weight: 700;
+    padding-bottom: 2px;
+    font-size: 14pt;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    margin-right: 0px;
+    line-height: 105%;
+}
+
+
+.left-tags, .right-tags{
+  position: relative;
+  float: left;
+  width:50%;
+}
+.left-tags > .addedTag {
+  background-color: rgb(249, 140, 89);
+}
+
+.right-tags > .addedTag {
+  background-color: rgb(39, 186, 239)
+}
+
