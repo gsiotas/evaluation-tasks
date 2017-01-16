@@ -1,0 +1,14 @@
+<div class="legend">Source Sentence:</div>
+<h1>{{sentence}}</h1>
+<br />
+<br />
+<div>Drag each sentence according to the ranking you prefer.</div>
+<ol id="sortable">
+  <li class="ui-state-default" id="1">{{t1_sentence}}</li>
+  <li class="ui-state-default" id="2">{{t2_sentence}}</li>
+  <li class="ui-state-default" id="3">{{t3_sentence}}</li>
+</ol>
+<cml:text label="temp" style="display:none;" validates="required" />
+<div>
+  <cml:hidden readonly="readonly" name="rating" class="rating" />
+</div>

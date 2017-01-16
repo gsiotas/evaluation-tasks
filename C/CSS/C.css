@@ -1,0 +1,71 @@
+.alt3 {
+  font-size:16px;
+  width:80%;
+}
+
+.alt3 > li {
+  line-height: 30px;
+  border-bottom: 2px black dotted;
+  cursor:grab;
+}
+
+.empty {
+  float: left;
+  position: relative;
+  width: 20%;
+  margin-top:10px;
+}
+
+.break {
+  clear: both;
+}
+
+.required {
+  font-size: 70%;
+  color: red;
+}
+
+#sortable { margin: 0; padding: 0; width: 80%; }
+#sortable li { margin: 0 5px 5px 5px; padding: 5px; font-size: 1.2em; min-height: 1.5em; }
+html>body #sortable li { min-height: 1.5em; line-height: 1.2em; }
+.ui-state-highlight,  { min-height: 1.5em; line-height: 1.2em; }
+  
+.ui-state-default {
+  border: 1px solid #c5c5c5;
+	background: #f6f6f6;
+	font-weight: normal;
+	color: #454545;
+	cursor:grab;
+}
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+  color: #454545;
+	text-decoration: none;
+}
+
+.ui-state-hover {
+  border: 1px solid #cccccc;
+	background: #ededed;
+	font-weight: normal;
+	color: #2b2b2b;
+}
+
+.ui-state-highlight {
+	border: 1px solid #dad55e;
+	background: #fffa90;
+	color: #777620;
+}
+
+.ui-state-highlight a {
+	color: #777620;
+}
+
+.ui-state-checked {
+	border: 1px solid #dad55e;
+	background: #fffa90;
+}
+
+.ui-sortable-helper {
+  cursor:grabbing;
+}
